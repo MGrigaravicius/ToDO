@@ -21,6 +21,7 @@ document.getElementById("addBtn").addEventListener("click", () => {
   const inputValue = document.getElementById("taskInput").value;
 
   // & = getElementById
+  // DivHide
   if (document.getElementById("taskInput").value.length == 0) {
     alert("empty");
     $(document).ready(function () {
