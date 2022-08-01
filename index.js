@@ -20,6 +20,7 @@ let arr = [
 document.getElementById("addBtn").addEventListener("click", () => {
   const inputValue = document.getElementById("taskInput").value;
 
+  // & = getElementById
   if (document.getElementById("taskInput").value.length == 0) {
     alert("empty");
     $(document).ready(function () {
