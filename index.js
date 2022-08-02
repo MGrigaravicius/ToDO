@@ -22,7 +22,7 @@ document.getElementById("addBtn").addEventListener("click", () => {
 
   // & = getElementById
   // DivHide
-  if (document.getElementById("taskInput").value.length == 0) {
+  if (!inputValue.trim()) {
     alert("empty");
     $(document).ready(function () {
       $("div.form-group label.tbh:empty").parent().hide();
